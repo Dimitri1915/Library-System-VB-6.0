@@ -1,36 +1,36 @@
 VERSION 5.00
 Begin VB.Form Form2 
    Caption         =   "ALTA USUARIOS "
-   ClientHeight    =   5340
+   ClientHeight    =   4110
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   7590
+   ClientWidth     =   10125
    LinkTopic       =   "Form2"
-   ScaleHeight     =   5340
-   ScaleWidth      =   7590
+   ScaleHeight     =   4110
+   ScaleWidth      =   10125
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command3 
       Caption         =   "REGRESAR MENU"
       Height          =   975
-      Left            =   5040
+      Left            =   7560
       TabIndex        =   7
-      Top             =   3840
+      Top             =   2640
       Width           =   2055
    End
    Begin VB.CommandButton Command2 
       Caption         =   "LIMPIAR"
       Height          =   975
-      Left            =   2760
+      Left            =   7560
       TabIndex        =   6
-      Top             =   3840
-      Width           =   1935
+      Top             =   1560
+      Width           =   2055
    End
    Begin VB.CommandButton Command1 
       Caption         =   "DAR DE ALTA"
       Height          =   975
-      Left            =   360
+      Left            =   7560
       TabIndex        =   5
-      Top             =   3840
+      Top             =   480
       Width           =   2055
    End
    Begin VB.TextBox Text2 
@@ -94,6 +94,7 @@ Private Sub Command1_Click()
     
     Text1.Text = ""
     Text2.Text = ""
+    Text1.SetFocus
 End Sub
 
 Private Sub Command2_Click()
@@ -105,3 +106,4 @@ Private Sub Command3_Click()
 Form1.Show
 Form2.Hide
 End Sub
+

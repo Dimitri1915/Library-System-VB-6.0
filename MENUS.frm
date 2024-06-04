@@ -1,13 +1,13 @@
 VERSION 5.00
 Begin VB.Form Form1 
    Caption         =   "MENUS"
-   ClientHeight    =   3405
+   ClientHeight    =   1365
    ClientLeft      =   225
    ClientTop       =   870
-   ClientWidth     =   5685
+   ClientWidth     =   5715
    LinkTopic       =   "Form1"
-   ScaleHeight     =   3405
-   ScaleWidth      =   5685
+   ScaleHeight     =   1365
+   ScaleWidth      =   5715
    StartUpPosition =   3  'Windows Default
    Begin VB.Label Label1 
       BackColor       =   &H00FFFFFF&
@@ -25,7 +25,7 @@ Begin VB.Form Form1
       Height          =   2895
       Left            =   240
       TabIndex        =   0
-      Top             =   240
+      Top             =   120
       Width           =   5175
    End
    Begin VB.Menu menu 
@@ -92,6 +92,16 @@ End Sub
 
 Private Sub baja_Click()
 Form3.Show
+Form1.Hide
+End Sub
+
+Private Sub consulta_Click()
+Form5.Show
+Form1.Hide
+End Sub
+
+Private Sub modificar_Click()
+Form4.Show
 Form1.Hide
 End Sub
 
