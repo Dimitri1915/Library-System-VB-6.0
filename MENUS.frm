@@ -90,8 +90,18 @@ Form2.Show
 Form1.Hide
 End Sub
 
+Private Sub alta1_Click()
+Form6.Show
+Form1.Hide
+End Sub
+
 Private Sub baja_Click()
 Form3.Show
+Form1.Hide
+End Sub
+
+Private Sub baja1_Click()
+Form7.Show
 Form1.Hide
 End Sub
 
@@ -100,8 +110,18 @@ Form5.Show
 Form1.Hide
 End Sub
 
+Private Sub consulta1_Click()
+Form9.Show
+Form1.Hide
+End Sub
+
 Private Sub modificar_Click()
 Form4.Show
+Form1.Hide
+End Sub
+
+Private Sub modificar1_Click()
+Form8.Show
 Form1.Hide
 End Sub
 
